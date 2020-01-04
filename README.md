@@ -15,7 +15,7 @@
    * Run `git push heroku HEAD:master --force`
    * Turn on your dyno worker with command `heroku ps:scale worker=1`
 
-Set up OAuth:
+## Set up OAuth:
 
    * Visit the [Google Cloud Console](https://console.developers.google.com/apis/credentials)
    * Go to the OAuth Consent tab, fill it, and save.
@@ -25,9 +25,9 @@ Set up OAuth:
    * Move that file to the root of aria-telegram-mirror-bot, and rename it to `credentials.json`
    * Run `python3 generate_gdrive_token.py`
 
-Get Drive folder ID:
+## Get Drive folder ID:
 
    * Visit [Google Drive](https://drive.google.com).
    * Create a new folder. The bot will upload files inside this folder.
    * Open the folder.
-   * The URL will be something like `https://drive.google.com/drive/u/0/folders/012a_345bcdefghijk`. Copy the part after `folders/` (`012a_345bcdefghijk`). This is the `GDRIVE_PARENT_DIR_ID` that you'll need in step 5 of the Installation section.
+   * The URL will be something like `https://drive.google.com/drive/u/0/folders/012a_345bcdefghijk`. Copy the part after `folders/` (`012a_345bcdefghijk`).
