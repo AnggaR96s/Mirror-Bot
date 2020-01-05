@@ -31,3 +31,6 @@
    * Create a new folder. The bot will upload files inside this folder.
    * Open the folder.
    * The URL will be something like `https://drive.google.com/drive/u/0/folders/012a_345bcdefghijk`. Copy the part after `folders/` (`012a_345bcdefghijk`).
+
+## Hardcore Authorized Chats
+   * Edit file authorized_chats.txt and write group id or user id to hardcore use the bot.
