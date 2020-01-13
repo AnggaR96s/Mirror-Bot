@@ -1,4 +1,4 @@
-FROM anggarsx/mirror-bot:latest
+FROM anggarsx/aria2gd:dev
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
